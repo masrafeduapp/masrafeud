@@ -1,0 +1,4 @@
+import Link from 'next/link'
+export default function ForgotUsername(){
+ return <main className="authWrap" dir="rtl"><section className="card authCard"><div className="brand"><span className="logo">م</span> مصرف التعليم</div><h1>نسيت اسم المستخدم؟</h1><p className="muted">للمعلمة والإدارة والمشترك: اسم الدخول هو البريد الإلكتروني الذي تم إنشاء الحساب به.</p><div className="notice"><b>حساب الطالب/الطالبة:</b><br/>اسم المستخدم ينشئه الحساب الإداري أو المعلمة من قسم الفصول والطلاب. حفاظًا على الخصوصية لا نعرض أسماء المستخدمين من صفحة عامة.</div><p className="muted">إذا نُسي اسم مستخدم الطالب، يطلب ولي الأمر من المعلمة إعادة إرساله أو تحديثه من حسابها.</p><div style={{display:'grid',gap:10}}><Link className="btn btn-primary" href="/student/login">العودة لدخول الطالب</Link><Link className="btn btn-light" href="/">العودة للبوابة</Link></div></section></main>
+}
